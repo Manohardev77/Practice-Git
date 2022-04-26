@@ -1,0 +1,74 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "global-settings_uiConfig",
+            "name": "global-settings_brightstar",
+            "type": "uiConfig",
+            "properties": {
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "system_user",
+                "modifiedDate": "2021-12-08T12:50:42.594-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "global-settings",
+                            "tenant": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "themeSettings": {
+                                    "themeName": "default",
+                                    "headerLogoUrl": "https://www.brightstar.com/wp-content/themes/2017/assets/images/Brightstar_logo_RGB.svg",
+                                    "footerTitle": "likewize MDM",
+                                    "primaryColor": "#FFFFFF",
+                                    "primaryLightColor": "#FFFFFF",
+                                    "secondaryColor": "#FFFFFF"
+                                },
+                                "dataDefaults": {
+                                    "entityTypes": {
+                                        "digitalAsset": [
+                                            "document",
+                                            "image"
+                                        ],
+                                        "thing": [
+                                            "productgroup",
+                                            "product",
+                                            "kit",
+                                            "item",
+                                            "localvariant",
+                                            "referencerequest"
+                                        ],
+                                        "party": [
+                                            "vendormaster",
+                                            "vendorvariant",
+                                            "address",
+                                            "vendorreferencerequest",
+                                            "rsdraftvendormaster"
+                                        ],
+                                        "customer": [
+                                            "customermaster",
+                                            "customervariant",
+                                            "customeraddress",
+                                            "customerreferencerequest",
+                                            "rsdraftcustomermaster"
+                                        ]
+                                    },
+                                    "taxonomy": "producttaxonomy",
+                                    "entityNameAttribute": "uniqueid",
+                                    "checkDuplicatesOnUpdate": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
